@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140px;
+  text-transform: uppercase;
+  color: #FAF9F9;
+  margin-bottom: 39px;
+}
+h1 span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #FBB731;
+  margin-bottom: 10px;
+  display: block;
+}
+.main {
+  background: linear-gradient(180deg, #0C4C7B, #1E2F40);
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.4;
+  color: #DEDEDE;
+  margin-bottom: 42px;
+}
+a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #1E2F40;
+  text-decoration: none;
+  background-color: #FBB731;
+  padding: 20px 45px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.container {
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.text {
+  flex-basis: 580px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+.visual {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.bg {
+  position: absolute;
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+img {
+  width: 829px;
+  position: absolute;
+  right: -168px;
+}
